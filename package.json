@@ -1,0 +1,25 @@
+{
+  "name": "wdio-testing",
+  "version": "1.0.0",
+  "description": "Automated Software POC",
+  "main": "index.js",
+  "scripts": {
+    "chrome": "node_modules/.bin/wdio src/config/wdio.conf.js",
+    "firefox": "browser=firefox node_modules/.bin/wdio src/config/wdio.conf.js",
+    "opera": "browser=opera node_modules/.bin/wdio src/config/wdio.conf.js"
+    
+  },
+  "keywords": [
+    "Automation"
+  ],
+  "author": "David Murillo",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^7.3.0",
+    "@wdio/cucumber-framework": "^7.3.0",
+    "@wdio/local-runner": "^7.3.0",
+    "@wdio/spec-reporter": "^7.3.0",
+    "@wdio/sync": "^7.3.0",
+    "@wdio/selenium-standalone-service": "^6.11.0"
+  }
+}
