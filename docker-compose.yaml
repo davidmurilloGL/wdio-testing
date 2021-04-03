@@ -2,6 +2,20 @@
 # Add the `-d` flag at the end for detached execution
 version: "3"
 services:
+
+
+  wdio_automation:
+    build: .
+    container_name: build_wdio_automation
+    image: wdio_automation_img
+    depends_on:
+        - chrome
+        - firefox
+        - opera
+        - selenium-hub
+    command: tail -f /dev/null
+    network_mode: "host"
+  
   selenium-hub:
     image: selenium/hub:3.141.59-20210311
     container_name: selenium-hub
