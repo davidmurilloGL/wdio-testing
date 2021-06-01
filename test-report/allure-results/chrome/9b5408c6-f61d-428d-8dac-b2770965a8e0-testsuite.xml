@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620677210191' stop='1620677210245'>
+    <name>Product API Tests</name>
+    <title>Product API Tests</title>
+    <test-cases>
+        <test-case start='1620677210199' status='broken' stop='1620677210241'>
+            <name>Product Attribute</name>
+            <title>Product Attribute</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620677210203' status='broken' stop='1620677210241'>
+                    <name>Given I get the list of product attributes</name>
+                    <title>Given I get the list of product attributes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: function uses multiple asynchronous interfaces: callback and promise</message>
+                <stack-trace>Error: function uses multiple asynchronous interfaces: callback and promise
+                to use the callback interface: do not return a promise
+                to use the promise interface: remove the last argument to the function
+                    at Object.run (/Users/david.murillo/Documents/wdio-testing/node_modules/@cucumber/cucumber/src/user_code_runner.ts:51:16)
+                    at Object.run (/Users/david.murillo/Documents/wdio-testing/node_modules/@cucumber/cucumber/src/runtime/step_runner.ts:56:41)
+                    at PickleRunner.invokeStep (/Users/david.murillo/Documents/wdio-testing/node_modules/@cucumber/cucumber/src/runtime/pickle_runner.ts:240:12)
+                    at PickleRunner.runStep (/Users/david.murillo/Documents/wdio-testing/node_modules/@cucumber/cucumber/src/runtime/pickle_runner.ts:423:20)
+                    at /Users/david.murillo/Documents/wdio-testing/node_modules/@cucumber/cucumber/src/runtime/pickle_runner.ts:331:20
+                    at PickleRunner.aroundTestStep (/Users/david.murillo/Documents/wdio-testing/node_modules/@cucumber/cucumber/src/runtime/pickle_runner.ts:273:28)
+                    at PickleRunner.run (/Users/david.murillo/Documents/wdio-testing/node_modules/@cucumber/cucumber/src/runtime/pickle_runner.ts:315:9)
+                    at Runtime.runPickle (/Users/david.murillo/Documents/wdio-testing/node_modules/@cucumber/cucumber/src/runtime/index.ts:118:20)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,37 @@
+Feature: Cart Flows
+
+Background:
+    Given I am in the shop page
+    
+  Scenario: Empty Cart View
+    When I click on the cart section
+    Then Empty cart view is displayed 
+    And  I should see search bar
+    And I should see related posts section
+    And I should see recent comments section
+    And I should see related posts section
+    And I should see categories section
+
+
+  Scenario: Cart Section with Product
+    When I click on the add to cart button from the album product
+    And I click on the cart button in the modal
+    Then Product Information is displayed on the cart section
+    And I should see coupon section
+    And I should see checkout section
+
+  Scenario: Update Product Quantity on cart section
+    When I click on the add to cart button from the album product
+    And I click on the cart button in the modal
+    And I should se initial quantity Information
+    Then I increase product quantity
+    And I should see product quantity information updated
+
+  Scenario: Remove Product from cart section
+    When I click on the add to cart button from the album product
+    And I click on the cart button in the modal
+    And I click on the remove item button 
+    Then Item is removed from cart
+
+  
+ 

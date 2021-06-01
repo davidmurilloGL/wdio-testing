@@ -1,0 +1,249 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620003929883' stop='1620003930022'>
+    <name>Cart Flows</name>
+    <title>Cart Flows</title>
+    <test-cases>
+        <test-case start='1620003929906' status='broken' stop='1620003929930'>
+            <name>Empty Cart View</name>
+            <title>Empty Cart View</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620003929919' status='broken' stop='1620003929921'>
+                    <name>Given I am in the "shop" page</name>
+                    <title>Given I am in the "shop" page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003929922' status='broken' stop='1620003929922'>
+                    <name>When I click on the cart section</name>
+                    <title>When I click on the cart section</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003929924' status='broken' stop='1620003929924'>
+                    <name>Then Empty cart view is displayed</name>
+                    <title>Then Empty cart view is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003929924' status='broken' stop='1620003929925'>
+                    <name>And I should see search bar</name>
+                    <title>And I should see search bar</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003929925' status='broken' stop='1620003929925'>
+                    <name>And I should see related posts section</name>
+                    <title>And I should see related posts section</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003929925' status='broken' stop='1620003929927'>
+                    <name>And I should see recent comments section</name>
+                    <title>And I should see recent comments section</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003929927' status='broken' stop='1620003929929'>
+                    <name>And I should see related posts section</name>
+                    <title>And I should see related posts section</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003929929' status='broken' stop='1620003929930'>
+                    <name>And I should see categories section</name>
+                    <title>And I should see categories section</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "I should see categories section" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should see categories section" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/david.murillo/Documents/wdio-testing/features/feature_files/cart.feature):1:1
+                	at Scenario(Empty Cart View):6:3
+                	at Step(I should see categories section):13:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1620003929935' status='broken' stop='1620003929950'>
+            <name>Cart Section with Product</name>
+            <title>Cart Section with Product</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620003929939' status='broken' stop='1620003929940'>
+                    <name>Given I am in the "shop" page</name>
+                    <title>Given I am in the "shop" page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003929940' status='broken' stop='1620003929942'>
+                    <name>When I click on the add to cart button from the album product</name>
+                    <title>When I click on the add to cart button from the album product</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003929943' status='broken' stop='1620003929945'>
+                    <name>And I click on the cart button in the modal</name>
+                    <title>And I click on the cart button in the modal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003929946' status='broken' stop='1620003929947'>
+                    <name>Then Product Information is displayed on the cart section</name>
+                    <title>Then Product Information is displayed on the cart section</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003929947' status='broken' stop='1620003929948'>
+                    <name>And I should see coupon section</name>
+                    <title>And I should see coupon section</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003929948' status='broken' stop='1620003929950'>
+                    <name>And I should see checkout section</name>
+                    <title>And I should see checkout section</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "I should see checkout section" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should see checkout section" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/david.murillo/Documents/wdio-testing/features/feature_files/cart.feature):1:1
+                	at Scenario(Cart Section with Product):16:3
+                	at Step(I should see checkout section):21:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1620003929955' status='broken' stop='1620003929997'>
+            <name>Update Product Quantity on cart section</name>
+            <title>Update Product Quantity on cart section</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620003929973' status='broken' stop='1620003929975'>
+                    <name>Given I am in the "shop" page</name>
+                    <title>Given I am in the "shop" page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003929976' status='broken' stop='1620003929982'>
+                    <name>When I click on the add to cart button from the album product</name>
+                    <title>When I click on the add to cart button from the album product</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003929983' status='broken' stop='1620003929988'>
+                    <name>And I click on the cart button in the modal</name>
+                    <title>And I click on the cart button in the modal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003929991' status='broken' stop='1620003929992'>
+                    <name>And I should se initial quantity Information</name>
+                    <title>And I should se initial quantity Information</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003929993' status='broken' stop='1620003929995'>
+                    <name>Then I increase product quantity</name>
+                    <title>Then I increase product quantity</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003929995' status='broken' stop='1620003929997'>
+                    <name>And I should see product quantity information updated</name>
+                    <title>And I should see product quantity information updated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "I should see product quantity information updated" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should see product quantity information updated" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/david.murillo/Documents/wdio-testing/features/feature_files/cart.feature):1:1
+                	at Scenario(Update Product Quantity on cart section):23:3
+                	at Step(I should see product quantity information updated):28:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1620003930005' status='broken' stop='1620003930019'>
+            <name>Remove Product from cart section</name>
+            <title>Remove Product from cart section</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620003930011' status='broken' stop='1620003930012'>
+                    <name>Given I am in the "shop" page</name>
+                    <title>Given I am in the "shop" page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003930012' status='broken' stop='1620003930013'>
+                    <name>When I click on the add to cart button from the album product</name>
+                    <title>When I click on the add to cart button from the album product</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003930014' status='broken' stop='1620003930018'>
+                    <name>And I click on the cart button in the modal</name>
+                    <title>And I click on the cart button in the modal</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003930018' status='broken' stop='1620003930018'>
+                    <name>And I click on the remove item button</name>
+                    <title>And I click on the remove item button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620003930019' status='broken' stop='1620003930019'>
+                    <name>Then Item is removed from cart</name>
+                    <title>Then Item is removed from cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "Item is removed from cart" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "Item is removed from cart" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/david.murillo/Documents/wdio-testing/features/feature_files/cart.feature):1:1
+                	at Scenario(Remove Product from cart section):30:3
+                	at Step(Item is removed from cart):34:5
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

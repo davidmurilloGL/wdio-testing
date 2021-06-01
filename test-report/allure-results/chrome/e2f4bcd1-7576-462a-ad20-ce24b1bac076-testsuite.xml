@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618259374585' stop='1618259374621'>
+    <name>Login Flows</name>
+    <title>Login Flows</title>
+    <test-cases>
+        <test-case start='1618259374596' status='pending' stop='1618259374616'>
+            <name>As a user, I can log into the system</name>
+            <title>As a user, I can log into the system</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps>
+                <step start='1618259374599' status='canceled' stop='1618259374613'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618259374613' status='canceled' stop='1618259374614'>
+                    <name>When I login with standard_user and secret_sauce</name>
+                    <title>When I login with standard_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618259374614' status='canceled' stop='1618259374614'>
+                    <name>Then inventory page is displayed</name>
+                    <title>Then inventory page is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1618259374617' status='pending' stop='1618259374620'>
+            <name>Login Negative Scenarios</name>
+            <title>Login Negative Scenarios</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps>
+                <step start='1618259374617' status='canceled' stop='1618259374619'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618259374619' status='canceled' stop='1618259374619'>
+                    <name>When I login with tomsmith and SuperSecretPassword!</name>
+                    <title>When I login with tomsmith and SuperSecretPassword!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618259374619' status='canceled' stop='1618259374620'>
+                    <name>Then I should see an error message saying Epic sadface: Username and password do not match any user in this service</name>
+                    <title>Then I should see an error message saying Epic sadface: Username and password do not match any user in this service</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

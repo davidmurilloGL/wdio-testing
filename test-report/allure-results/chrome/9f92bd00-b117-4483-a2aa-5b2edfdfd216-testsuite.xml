@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618258605686' stop='1618258606495'>
+    <name>Inventory Flows</name>
+    <title>Inventory Flows</title>
+    <test-cases>
+        <test-case start='1618258605699' status='broken' stop='1618258606491'>
+            <name>View Product Detail</name>
+            <title>View Product Detail</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps>
+                <step start='1618258605705' status='passed' stop='1618258606489'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1618258605710' status='passed' stop='1618258606488'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='515e5938-ea29-4681-ba62-a523ac48d4a6-attachment.json' type='application/json' size='41'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1618258606489' status='broken' stop='1618258606489'>
+                    <name>And I login with valid credentials</name>
+                    <title>And I login with valid credentials</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618258606490' status='canceled' stop='1618258606490'>
+                    <name>Given I am on the inventory page</name>
+                    <title>Given I am on the inventory page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618258606490' status='broken' stop='1618258606490'>
+                    <name>When I select one of the items</name>
+                    <title>When I select one of the items</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618258606491' status='broken' stop='1618258606491'>
+                    <name>Then I can see the Product detail information of the selected item</name>
+                    <title>Then I can see the Product detail information of the selected item</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "I can see the Product detail information of the selected item" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I can see the Product detail information of the selected item" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/david.murillo/Documents/wdio-testing/features/feature_files/inventory.feature):1:1
+                	at Scenario(View Product Detail):7:3
+                	at Step(I can see the Product detail information of the selected item):10:2
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

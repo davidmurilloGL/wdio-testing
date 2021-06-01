@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620683996541' stop='1620683996564'>
+    <name>Product API Tests</name>
+    <title>Product API Tests</title>
+    <test-cases>
+        <test-case start='1620683996550' status='passed' stop='1620683996562'>
+            <name>Product Attribute</name>
+            <title>Product Attribute</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620683996554' status='passed' stop='1620683996559'>
+                    <name>Given I get the list of product attributes</name>
+                    <title>Given I get the list of product attributes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620683996559' status='passed' stop='1620683996561'>
+                    <name>When I add a new product attribute</name>
+                    <title>When I add a new product attribute</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

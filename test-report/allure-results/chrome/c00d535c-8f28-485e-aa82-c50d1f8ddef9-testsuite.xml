@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620677013530' stop='1620677013550'>
+    <name>Product API Tests</name>
+    <title>Product API Tests</title>
+    <test-cases>
+        <test-case start='1620677013538' status='broken' stop='1620677013547'>
+            <name>Product Attribute</name>
+            <title>Product Attribute</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620677013541' status='broken' stop='1620677013547'>
+                    <name>Given I get the list of product attributes</name>
+                    <title>Given I get the list of product attributes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: request is not a function</message>
+                <stack-trace>TypeError: request is not a function
+                    at World.&lt;anonymous> (/Users/david.murillo/Documents/wdio-testing/features/step-definitions/rest/products/product_category_step.js:10:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
